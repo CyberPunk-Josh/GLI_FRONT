@@ -1,0 +1,46 @@
+@import '../../Scss/index.scss';
+
+.courses{
+
+    z-index: -1;
+
+    &__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .createCourse{
+        background: $background-secondary;
+        margin-left: 20px;
+    }
+
+    .downloadCourse{
+        border: 1px solid $background-secondary !important;
+    }
+
+    .form_search{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &__button{
+            background: $background-grety;
+        }
+
+        &__filter{
+            margin-left: 20px;
+        }
+    }
+
+    .courses_bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
